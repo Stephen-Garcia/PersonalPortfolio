@@ -1,1 +1,28 @@
-/* CSS Comming */
+* {
+    box-sizing: border-box;
+    border: none;
+} img {
+    display: block;
+    max-width: 100%;
+}
+
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+ol,
+ul {
+    padding-left: 0;
+}
+
+article ol,
+article ul {
+    list-style-position: inside;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+          scroll-behavior: smooth;
+    }
+  }
