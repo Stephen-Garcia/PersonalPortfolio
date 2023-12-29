@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>My Portfolio</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Stephen's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1>Stephen Garcia</h1>
-        <nav class="navbar">
-            <ul class="navLinks">
-                <li>About</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-            </ul>
+        <p>Web Developer</p>
+        <nav>
+            <a href="#about-me" id='a'>About Me</a>
+            <a href="#my-work" id='a'>My Work</a>
+            <a href="#contact-me" id='a'>Contact Me</a>
         </nav>
     </header>
-    
-    <div class="backgroundImage">
-        <img src="http://placehold.it/">
-        <h1>Fullstack Web Developer</h1>
-    </div>
 
+    <img class="tech"></img>
     <main>
-        <section class="aboutMe"> 
-            <h1>About Me</h1>
-            <p>This is a little about me.</p>
+        <section class="about-me" id="about-me">
+            <img src="./assets/images/about-me.jpg" alt="Picture of Stephen Garcia" class="float-right" />
+            <h2>About Me</h2>
+            <p> Hello! My name is Stephen Garcia. I am 28 years old and currently live in Thornton, Colorado. I am a
+                husband to my beautiful wife and Father to my wonderful daughter! I am currently enrolled in the fullstack DU bootcamp and
+                cannot wait to get my future started on the right path with this opportunity. I am hard working,
+                creative,
+                passionate, and caring.
+            </p>
         </section>
-        <section class="work">
-            <h1>Work</h1>
-            <p>This is a little about me.</p>
+
+        <section class="my-work" id="my-work">
+            <img src="./assets/images/my-work.jpg" alt="Picture of a laptop with code on it" class="float-right" />
+            <h2>My Work</h2>
+            <p> While I dont have any previous work in web development, I will be adding all of my achievments to this
+                personal profile!
+
+            </p>
         </section>
-    </main> The classes in here will more than likely be different due to better naming for css
-    <footer class="footer">
-        <h1>Contact Me</h1>
-        <div>
-            <ul class="contactLinks">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </div>
-    </footer>
+
+        <section class="contact-me" id="contact-me">
+            <img src="./assets/images/contact-me.jpg" alt="Picture of social media images" class="float-right" />
+            <h2>Contact Me</h2>
+            <li>
+                <a href="https://github.com/Stephen-Garcia">Github</a>
+            </li>
+
+            <li>
+                <a href="mailto: garciastephen5280@gmial.com">Email Me!</a>
+            </li>
+
+        </section>
+    </main>
 </body>
+<!-- Test -->
 </html>

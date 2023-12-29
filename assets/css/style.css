@@ -1,43 +1,80 @@
 * {
     box-sizing: border-box;
-    border: none;
-} 
-
-img {
-    display: block;
-    max-width: 100%;
 }
 
- /* ol:not(article ol),
-ul:not(article ul) {
-    list-style: none;
-} */
+body {
+    font-family: "Times New Roman";
+    margin: 0
+}
 
-/* ol,
-ul {
-    padding-left: 0;
-} */
-
-/* article ol,
-article ul {
-    list-style-position: inside; 
- }  */
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-    html {
-          scroll-behavior: smooth;
-    }
-  }
-
-h1 {
-    text-align: left;
-    background-color: gray ;
+header {
+    padding: 5px;
+    text-align: Left;
+    background: rgb(48, 110, 129);
     color: black;
+}
 
-  }
-
-.navLinks {
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 20px;
     text-align: right;
-    }
+    
+}
+
+nav a {
+    color:rgb(0, 0, 0);
+    padding: 14px, 20px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.tech {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: url("../images/tech.jpg");
+    background-size: auto;
+    background-position: center;
+}
+
+main {
+  display: column;
+  background-color:rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: left;
+}
+
+
+.float-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.about-me, .my-work, .contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Times New Roman';
+    color: rgb(48, 110, 129);
+    background-color:rgb(255, 255, 255);
+}
+
+.about-me img, .my-work img, .contact-me img  {
+    max-height: 200px;
+}
+
+.about-me h2, .my-work h2, .contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: left;
+
+}
+
+.contact-me a {
+    text-decoration: none;
+    color:black;
+}
